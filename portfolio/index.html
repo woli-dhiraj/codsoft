@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhiraj Woli — Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  <nav id="nav">
+    <a href="#home" class="logo">D<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+ 
+  <div class="mobile-menu" id="mob">
+    <a href="#home"     onclick="closeMob()">Home</a>
+    <a href="#about"    onclick="closeMob()">About</a>
+    <a href="#projects" onclick="closeMob()">Projects</a>
+    <a href="#contact"  onclick="closeMob()">Contact</a>
+  </div>
+
+
+  <section id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+
+    <div class="hero-left">
+      <div class="hero-badge">Available for work</div>
+      <h1 class="hero-name">Dhiraj<br>Woli</h1>
+      <p class="hero-title"><span class="hi">Web</span> Developer</p>
+      <p class="hero-desc">
+        Turning ideas into smooth, interactive digital experiences with clean design and efficient code.
+      </p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-primary">Get In Touch &rarr;</a>
+        <a href="#" download="resume.pdf"  class="btn btn-outline">Resume &nearr;</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="int-card">
+        <div class="int-icon">💻</div>
+        <div class="int-title">Coding</div>
+        <div class="int-desc">Building web apps & exploring new tech daily.</div>
+      </div>
+      <div class="int-card">
+        <div class="int-icon">⚽</div>
+        <div class="int-title">Football</div>
+        <div class="int-desc">Playing & following football keeps me inspired.</div>
+      </div>
+      <div class="int-card">
+        <div class="int-icon">✦</div>
+        <div class="int-title">Design</div>
+        <div class="int-desc">Experimenting with UI/UX ideas and aesthetics.</div>
+      </div>
+      <div class="int-card">
+        <div class="int-icon">📚</div>
+        <div class="int-title">Learning</div>
+        <div class="int-desc">Always curious, always exploring new knowledge.</div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="about">
+    <div class="about-text">
+      <span class="sec-label">About Me</span>
+      <h2 class="sec-title">Passionate about<br>tech & creativity</h2>
+      <div class="divider"></div>
+      <p>Hi, I'm <strong>Dhiraj Woli</strong> — a BSc IT student with a passion for technology, problem-solving, and creativity.</p>
+      <p>Outside of academics, I enjoy coding side projects, playing football, and coming up with unique design ideas. I believe in learning by doing and pushing myself to improve every day.</p>
+      <p>I build with the MERN stack, love clean UI, and enjoy crafting experiences that feel both smooth and purposeful.</p>
+    </div>
+
+    <div class="about-skills">
+      <span class="sec-label">My Skills</span>
+      <h2 class="sec-title" style="font-size:1.8rem;">A complete stack,<br>front to back.</h2>
+      <div class="divider"></div>
+      <div class="skill-group">
+        <div class="skill-group-title">Frontend</div>
+        <div class="skill-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Tailwind CSS</span>
+          <span class="tag">React</span>
+          <span class="tag">Next.js</span>
+          <span class="tag">TypeScript</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Backend</div>
+        <div class="skill-tags">
+          <span class="tag">Node.js</span>
+          <span class="tag">Express.js</span>
+          <span class="tag">MongoDB</span>
+          <span class="tag">REST APIs</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Tools</div>
+        <div class="skill-tags">
+          <span class="tag">Git &amp; GitHub</span>
+          <span class="tag">Vercel</span>
+          <span class="tag">VS Code</span>
+          <span class="tag">Postman</span>
+          <span class="tag">Figma</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="projects">
+    <span class="sec-label">My Projects</span>
+    <h2 class="sec-title">Things I've built</h2>
+    <div class="divider"></div>
+    <div class="proj-grid">
+
+      <div class="proj-card">
+        <div class="proj-num">01</div>
+        <div class="proj-name">MovieDex</div>
+        <p class="proj-desc">A modern movie discovery web app to search and explore movies & TV shows with real-time data, detailed info, and a clean responsive interface.</p>
+        <div class="proj-tags">
+          <span class="proj-tag">React / Next.js</span>
+          <span class="proj-tag">Tailwind CSS</span>
+          <span class="proj-tag">TMDB API</span>
+          <span class="proj-tag">Vercel</span>
+        </div>
+        <a href="https://moviedexapp.vercel.app/" class="proj-link">Live Demo &rarr;</a>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-num">02</div>
+        <div class="proj-name">Portfolio v1</div>
+        <p class="proj-desc">My personal portfolio site — built with pure HTML & CSS, responsive design, and clean interactions to showcase my work and skills.</p>
+        <div class="proj-tags">
+          <span class="proj-tag">HTML</span>
+          <span class="proj-tag">CSS</span>
+          <span class="proj-tag">Vanilla JS</span>
+        </div>
+        <a href="https://dhirajwoli.vercel.app/" class="proj-link">View Code &rarr;</a>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-num">03</div>
+        <div class="proj-name">More soon...</div>
+        <p class="proj-desc">Currently working on more exciting projects using Next.js, TypeScript, and MongoDB. Stay tuned for upcoming launches!</p>
+        <div class="proj-tags">
+          <span class="proj-tag">Next.js</span>
+          <span class="proj-tag">TypeScript</span>
+          <span class="proj-tag">MongoDB</span>
+        </div>
+        <a href="https://github.com" class="proj-link">GitHub &rarr;</a>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <section id="contact">
+    <div class="contact-info">
+      <span class="sec-label">Contact</span>
+      <h2 class="sec-title">Let's build<br>something.</h2>
+      <div class="divider"></div>
+      <p class="sub">Have a project in mind or just want to say hi? I'm always open to new opportunities and conversations.</p>
+      <div class="socials">
+        <a href="https://youtube.com"   class="social-link"><span class="social-icon">&#9658;</span> YouTube</a>
+        <a href="https://instagram.com" class="social-link"><span class="social-icon">&#9673;</span> Instagram</a>
+        <a href="https://linkedin.com"  class="social-link"><span class="social-icon">in</span> LinkedIn</a>
+        <a href="https://twitter.com"   class="social-link"><span class="social-icon">&#120143;</span> Twitter / X</a>
+        <a href="https://github.com"    class="social-link"><span class="social-icon">&#9997;</span> GitHub</a>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Your name" />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="your@email.com" />
+      </div>
+      <div class="form-group">
+        <label for="msg">Message</label>
+        <textarea id="msg" placeholder="What's on your mind?"></textarea>
+      </div>
+      <button class="btn-send">&#128640; Send Message</button>
+    </div>
+  </section>
+
+  
+  <footer>
+    <div class="footer-brand">
+      <div class="logo">D<span>.</span></div>
+      <p>Building modern web experiences with React, Next.js, and the MERN stack.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Follow Me</h4>
+      <ul>
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+    </div>
+  </footer>
+  <div class="footer-bottom">
+    &copy; 2026 Dhiraj Woli. All rights reserved.
+  </div>
+
+  <script>
+    
+    var nav = document.getElementById('nav');
+    window.addEventListener('scroll', function () {
+      nav.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    
+    var burger = document.getElementById('burger');
+    var mob    = document.getElementById('mob');
+    burger.addEventListener('click', function () {
+      burger.classList.toggle('open');
+      mob.classList.toggle('open');
+      document.body.style.overflow = mob.classList.contains('open') ? 'hidden' : '';
+    });
+    function closeMob() {
+      burger.classList.remove('open');
+      mob.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+  </script>
+
+</body>
+</html>
